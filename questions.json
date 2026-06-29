@@ -1,0 +1,148 @@
+{
+    "JEE": {
+      "Physics": {
+        "Vector Algebra": [
+          {
+            "q": "Â is a vector quantity such that |Â| = non-zero constant. Which of the following expression is true for Â?",
+            "options": ["A) Â · Â = 0", "B) Â × Â < 0", "C) Â × Â = 0", "D) Â × Â > 0"],
+            "answer": "C",
+            "explanation": "Cross product of any vector with itself is always zero: Â × Â = |A||A|sin(0°) = 0. But dot product Â · Â = |A|² ≠ 0 since |A| is non-zero.",
+            "source": "JEE Main 2022 (Online) 25th June Morning Shift"
+          },
+          {
+            "q": "The velocity of a particle is given as v̂ = -xî + 2yĵ - zk̂ m/s. The magnitude of acceleration at point (1, 2, 4) is _____ m/s².",
+            "options": ["A) √6", "B) 9", "C) √33", "D) 0"],
+            "answer": "C",
+            "explanation": "a = dv/dt. ax = -vx = x, ay = 2vy = -4y, az = -vz = z. At (1,2,4): ax=1, ay=-8, az=4. |a| = √(1+64+16-48) = √33",
+            "source": "JEE Main 2026 (Online) 2nd April Morning Shift"
+          },
+          {
+            "q": "The angle between vector Q̂ and the resultant of (2Q̂ + 2P̂) and (2Q̂ - 2P̂) is:",
+            "options": ["A) tan⁻¹(P/Q)", "B) 0°", "C) tan⁻¹(2Q̂-2P̂)/(2Q̂+2P̂)", "D) tan⁻¹(2Q/P)"],
+            "answer": "B",
+            "explanation": "Resultant of (2Q̂+2P̂) and (2Q̂-2P̂) = 4Q̂. Since 4Q̂ is in same direction as Q̂, angle between them = 0°.",
+            "source": "JEE Main 2024 (Online) 5th April Morning Shift"
+          },
+          {
+            "q": "If two vectors Â and B̂ having equal magnitude R are inclined at angle θ, then:",
+            "options": ["A) |Â + B̂| = 2R cos(θ/2)", "B) |Â - B̂| = 2R cos(θ/2)", "C) |Â - B̂| = √2 R sin(θ/2)", "D) |Â + B̂| = 2R sin(θ/2)"],
+            "answer": "A",
+            "explanation": "|Â + B̂| = √(R²+R²+2R²cosθ) = R√(2+2cosθ) = R√(4cos²(θ/2)) = 2R cos(θ/2)",
+            "source": "JEE Main 2024 (Online) 31st January Evening Shift"
+          },
+          {
+            "q": "A vector in x-y plane makes an angle of 30° with y-axis. The magnitude of y-component of vector is 2√3. The magnitude of x-component of the vector will be:",
+            "options": ["A) √3", "B) 2", "C) 6", "D) 1/√3"],
+            "answer": "B",
+            "explanation": "y-component = R cos30° = 2√3. So R = 4. x-component = R sin30° = 4 × 0.5 = 2",
+            "source": "JEE Main 2023 (Online) 15th April Morning Shift"
+          },
+          {
+            "q": "When vector Â = 2î + 3ĵ + 2k̂ is subtracted from vector B̂, it gives a vector equal to 2ĵ. Then the magnitude of vector B̂ will be:",
+            "options": ["A) 3", "B) √33", "C) √6", "D) √5"],
+            "answer": "B",
+            "explanation": "B̂ - Â = 2ĵ → B̂ = Â + 2ĵ = 2î + 3ĵ + 2k̂ + 2ĵ = 2î + 5ĵ + 2k̂. |B̂| = √(4+25+4) = √33",
+            "source": "JEE Main 2023 (Online) 11th April Evening Shift"
+          },
+          {
+            "q": "Two forces having magnitude A and A/2 are perpendicular to each other. The magnitude of their resultant is:",
+            "options": ["A) 5A/2", "B) √5A/4", "C) √5A/2", "D) √5A²/2"],
+            "answer": "C",
+            "explanation": "R = √(A² + (A/2)²) = √(A² + A²/4) = √(5A²/4) = √5A/2",
+            "source": "JEE Main 2023 (Online) 8th April Morning Shift"
+          },
+          {
+            "q": "If two vectors P̂ = î + 2mĵ + mk̂ and Q̂ = 4î - 2ĵ + mk̂ are perpendicular to each other, the value of m will be:",
+            "options": ["A) -1", "B) 3", "C) 1", "D) 2"],
+            "answer": "D",
+            "explanation": "For perpendicular vectors P̂·Q̂ = 0. (1)(4)+(2m)(-2)+(m)(m) = 0 → 4-4m+m² = 0 → (m-2)² = 0 → m = 2",
+            "source": "JEE Main 2023 (Online) 24th January Evening Shift"
+          },
+          {
+            "q": "Two vectors Â and B̂ have equal magnitudes. If magnitude of Â + B̂ is equal to two times the magnitude of Â - B̂, then the angle between Â and B̂ will be:",
+            "options": ["A) sin⁻¹(3/5)", "B) sin⁻¹(1/3)", "C) cos⁻¹(3/5)", "D) cos⁻¹(1/3)"],
+            "answer": "C",
+            "explanation": "|Â+B̂| = 2|Â-B̂|. Let |A|=|B|=R. 2R²(1+cosθ) = 4·2R²(1-cosθ). Solving: 5cosθ = 3 → θ = cos⁻¹(3/5)",
+            "source": "JEE Main 2022 (Online) 29th June Morning Shift"
+          },
+          {
+            "q": "Which of the following relations is true for two unit vectors Â and B̂ making an angle θ to each other?",
+            "options": ["A) |Â + B̂| = |Â - B̂| tan(θ/2)", "B) |Â - B̂| = |Â + B̂| tan(θ/2)", "C) |Â + B̂| = |Â - B̂| cos(θ/2)", "D) |Â - B̂| = |Â + B̂| cos(θ/2)"],
+            "answer": "B",
+            "explanation": "For unit vectors: |Â+B̂| = 2cos(θ/2) and |Â-B̂| = 2sin(θ/2). So |Â-B̂|/|Â+B̂| = tan(θ/2). Therefore |Â-B̂| = |Â+B̂| tan(θ/2)",
+            "source": "JEE Main 2022 (Online) 25th June Morning Shift"
+          },
+          {
+            "q": "Statement I: Two forces (P̂+Q̂) and (P̂-Q̂) where P̂⊥Q̂, when act at angle θ₁ their resultant is √3(P²+Q²). When they act at angle θ₂ the resultant becomes √2(P²+Q²). This is possible only when θ₁ < θ₂.\nStatement II: In the above situation θ₁ = 60° and θ₂ = 90°.\nChoose the most appropriate answer:",
+            "options": ["A) Statement I is false but Statement II is true", "B) Both Statement I and Statement II are true", "C) Statement I is true but Statement II is false", "D) Both Statement I and Statement II are false"],
+            "answer": "B",
+            "explanation": "At θ₁=60° resultant = √3(P²+Q²) and at θ₂=90° resultant = √2(P²+Q²). Since 60°<90°, θ₁<θ₂. Both statements are true.",
+            "source": "JEE Main 2022 (Online) 25th June Morning Shift"
+          },
+          {
+            "q": "Two vectors X̂ and Ŷ have equal magnitude. The magnitude of (X̂ - Ŷ) is n times the magnitude of (X̂ + Ŷ). The angle between X̂ and Ŷ is:",
+            "options": ["A) cos⁻¹((-n²-1)/(n²-1))", "B) cos⁻¹((n²-1)/(-n²-1))", "C) cos⁻¹((n²+1)/(-n²-1))", "D) cos⁻¹((n²+1)/(n²-1))"],
+            "answer": "A",
+            "explanation": "|X̂-Ŷ|² = n²|X̂+Ŷ|². 2R²(1-cosθ) = n²·2R²(1+cosθ). Solving: cosθ = (1-n²)/(1+n²) = (-n²-1)/(n²-1)",
+            "source": "JEE Main 2021 (Online) 25th July Evening Shift"
+          },
+          {
+            "q": "What will be the projection of vector Â = î + ĵ + k̂ on vector B̂ = î + ĵ?",
+            "options": ["A) √2(î + ĵ + k̂)", "B) (î + ĵ)", "C) √2(î + ĵ)", "D) 2(î + ĵ + k̂)"],
+            "answer": "B",
+            "explanation": "Projection of Â on B̂ = (Â·B̂/|B̂|²)B̂. Â·B̂ = 1+1+0 = 2. |B̂|² = 2. Projection = (2/2)(î+ĵ) = (î+ĵ)",
+            "source": "JEE Main 2021 (Online) 22nd July Evening Shift"
+          },
+          {
+            "q": "Two vectors P̂ and Q̂ have equal magnitudes. If the magnitude of P̂ + Q̂ is n times the magnitude of P̂ - Q̂, then angle between P̂ and Q̂ is:",
+            "options": ["A) sin⁻¹((n-1)/(n+1))", "B) cos⁻¹((n-1)/(n+1))", "C) sin⁻¹((n²-1)/(n²+1))", "D) cos⁻¹((n²-1)/(n²+1))"],
+            "answer": "D",
+            "explanation": "|P̂+Q̂| = n|P̂-Q̂|. 2R²(1+cosθ) = n²·2R²(1-cosθ). cosθ(1+n²) = n²-1. θ = cos⁻¹((n²-1)/(n²+1))",
+            "source": "JEE Main 2021 (Online) 20th July Evening Shift"
+          },
+          {
+            "q": "If Â and B̂ are two vectors satisfying the relation Â·B̂ = |Â×B̂|. Then the value of |Â - B̂| will be:",
+            "options": ["A) √(A²+B²+√2·AB)", "B) √(A²+B²)", "C) √(A²+B²-√2·AB)", "D) √(A²+B²+2AB)"],
+            "answer": "C",
+            "explanation": "Â·B̂ = ABcosθ = ABsinθ = |Â×B̂|. So tanθ = 1, θ = 45°. |Â-B̂|² = A²+B²-2ABcos45° = A²+B²-√2·AB",
+            "source": "JEE Main 2021 (Online) 20th July Morning Shift"
+          },
+          {
+            "q": "Let |A̋₁| = 3, |A̋₂| = 5 and |A̋₁ + A̋₂| = 5. The value of (2A̋₁ + 3A̋₂)·(3A̋₁ - 2A̋₂) is:",
+            "options": ["A) -118.5", "B) -112.5", "C) -99.5", "D) -106.5"],
+            "answer": "A",
+            "explanation": "A̋₁·A̋₂ = (25-9-25)/2 = -9/2. (2A̋₁+3A̋₂)·(3A̋₁-2A̋₂) = 6|A̋₁|²+5(A̋₁·A̋₂)-6|A̋₂|² = 54+5(-4.5)-150 = 54-22.5-150 = -118.5",
+            "source": "JEE Main 2019 (Online) 8th April Evening Slot"
+          },
+          {
+            "q": "Two vectors Â and B̂ have equal magnitudes. The magnitude of (Â + B̂) is 'n' times the magnitude of (Â - B̂). The angle between Â and B̂ is:",
+            "options": ["A) sin⁻¹[(n-1)/(n+1)]", "B) sin⁻¹[(n²-1)/(n²+1)]", "C) cos⁻¹[(n²-1)/(n²+1)]", "D) cos⁻¹[(n-1)/(n+1)]"],
+            "answer": "C",
+            "explanation": "|Â+B̂| = n|Â-B̂|. 2R²(1+cosθ) = n²·2R²(1-cosθ). cosθ = (n²-1)/(n²+1). θ = cos⁻¹[(n²-1)/(n²+1)]",
+            "source": "JEE Main 2019 (Online) 10th January Evening Slot"
+          },
+          {
+            "q": "Let Â = (î + ĵ) and B̂ = (2î - ĵ). The magnitude of a coplanar vector Ĉ such that Â·Ĉ = B̂·Ĉ = Â·B̂ is given by:",
+            "options": ["A) √(10/9)", "B) √(5/9)", "C) √(20/9)", "D) √(9/12)"],
+            "answer": "B",
+            "explanation": "Â·B̂ = 2-1 = 1. Let Ĉ = xî+yĵ. x+y=1 and 2x-y=1. Solving: x=2/3, y=1/3. |Ĉ| = √(4/9+1/9) = √(5/9)",
+            "source": "JEE Main 2018 (Online) 16th April Morning Slot"
+          },
+          {
+            "q": "Two particles are at equal distance from origin with position vectors Â = 2î + 3nĵ + 2k̂ and B̂ = 2î - 2ĵ + 4pk̂. If both vectors are perpendicular to each other, the value of n⁻¹ is ___. (Numerical)",
+            "options": ["A) Type your answer", "B) -", "C) -", "D) -"],
+            "answer": "A",
+            "explanation": "Â·B̂ = 0. (2)(2)+(3n)(-2)+(2)(4p) = 0 → 4-6n+8p=0. Also |Â|=|B̂|: 9n²=16p². Solving these gives n⁻¹.",
+            "source": "JEE Main 2025 (Online) 23rd January Morning Shift"
+          },
+          {
+            "q": "The resultant of two vectors Â and B̂ is perpendicular to Â and its magnitude is half that of B̂. The angle between vectors Â and B̂ is ___°. (Numerical)",
+            "options": ["A) Type your answer", "B) -", "C) -", "D) -"],
+            "answer": "A",
+            "explanation": "Let angle = θ. Resultant R⊥Â. Using vector triangle with sine rule: sin(angle between R and B̂) = |Â|/|B̂|. |R|=|B̂|/2. Working gives θ = 150°.",
+            "source": "JEE Main 2024 (Online) 9th April Evening Shift"
+          }
+        ]
+      }
+    }
+  }
