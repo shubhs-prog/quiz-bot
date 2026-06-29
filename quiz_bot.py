@@ -237,28 +237,25 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Answer to quiz
     current_q = context.user_data.get("current_q")
     if current_q:
-    if current_q["options"][0] == "A) Type your answer":
-        await update.message.reply_text(
-            f"📝 Your answer: {text}\n\n💡 {current_q['explanation']}\n\nSend /quiz for next question!",
-            reply_markup=ReplyKeyboardRemove()
-        )
-        update_score(user_id, False)
-        context.user_data["current_q"] = None
-        return
-    if text not in ["A", "B", "C", "D"]:
-        return
-    if True:
+        if current_q["options"][0] == "A) Type your answer":
+            await update.message.reply_text(
+                f"📝 Your answer: {text}\n\n💡 {current_q['explanation']}\n\nSend /quiz for next question!",
+                reply_markup=ReplyKeyboardRemove()
+            )
+            update_score(user_id, False)
+            context.user_data["current_q"] = None
+            return
+        if text not in ["A", "B", "C", "D"]:
+            await update.message.reply_text("Send /quiz to get a question!")
+            return
         correct_answer = current_q["answer"]
         explanation = current_q["explanation"]
         is_correct = text == correct_answer
-
         update_score(user_id, is_correct)
-
         if is_correct:
             msg = f"✅ *Correct!*\n\n💡 {explanation}\n\nSend /quiz for next question!"
         else:
             msg = f"❌ *Wrong!* Correct answer: *{correct_answer}*\n\n💡 {explanation}\n\nSend /quiz for next question!"
-
         await update.message.reply_text(msg, parse_mode="Markdown", reply_markup=ReplyKeyboardRemove())
         context.user_data["current_q"] = None
     else:
