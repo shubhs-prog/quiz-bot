@@ -28,11 +28,12 @@ def get_random_question(exam=None, subject=None):
     for ex, subjects in data.items():
         if exam and ex != exam:
             continue
-        for sub, questions in subjects.items():
+        for sub, topics in subjects.items():
             if subject and sub != subject:
                 continue
-            for q in questions:
-                pool.append({**q, "exam": ex, "subject": sub})
+            for topic, questions in topics.items():
+                for q in questions:
+                    pool.append({**q, "exam": ex, "subject": sub, "topic": topic})
     return random.choice(pool) if pool else None
 
 
